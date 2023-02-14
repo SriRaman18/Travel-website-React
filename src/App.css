@@ -1191,6 +1191,11 @@ body {
     font-size: 15px;
   }
 
+  .experience-video {
+    min-height: 50vh;
+    height: 50vh;
+  }
+
   .experience-video h2 {
     font-size: 25px;
   }
