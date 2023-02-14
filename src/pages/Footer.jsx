@@ -34,10 +34,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-down">
-        <p data-aos="fade-right" data-aos-offset="50">
+        <p data-aos="fade-right" data-aos-offset="10">
           © 2023 Sri Raman. All rigths reserved.
         </p>
-        <div data-aos="fade-left" data-aos-offset="50">
+        <div data-aos="fade-left" data-aos-offset="10">
           <a href="">Terms & Agreements</a>
           <a href="">Privacy Policy</a>
         </div>
