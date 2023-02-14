@@ -1193,8 +1193,8 @@ body {
     align-items: center;
     padding-right: 5vw;
     margin-right: 5vw;
-    min-height: 40vh;
-    height: 40vh;
+    min-height: 50vh;
+    height: 50vh;
   }
 
   .experience-section .experience-header {
@@ -1206,8 +1206,8 @@ body {
   }
 
   .experience-video {
-    min-height: 40vh;
-    height: 40vh;
+    min-height: 50vh;
+    height: 50vh;
   }
 
   .experience-video h2 {
