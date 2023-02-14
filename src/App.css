@@ -30,6 +30,10 @@ body {
   overflow-x: hidden;
 }
 
+.app {
+  overflow-x: hidden;
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -337,6 +341,7 @@ body {
 .experience-section {
   width: 100vw;
   min-height: 90vh;
+
   height: auto;
   display: flex;
   flex-direction: column;
@@ -1180,10 +1185,16 @@ body {
 /* less than 450px */
 
 @media screen and (max-width: 450px) {
+  .swiper-section {
+    min-height: 50vh;
+    height: 50vh;
+  }
   .experience-section {
     align-items: center;
     padding-right: 5vw;
     margin-right: 5vw;
+    min-height: 40vh;
+    height: 40vh;
   }
 
   .experience-section .experience-header {
@@ -1195,8 +1206,8 @@ body {
   }
 
   .experience-video {
-    min-height: 50vh;
-    height: 50vh;
+    min-height: 40vh;
+    height: 40vh;
   }
 
   .experience-video h2 {

@@ -21,9 +21,9 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  useEffect(() => {
-    Aos.init({ duration: 1000, once: true });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 1000, once: true });
+  // }, []);
   const [theme, setTheme] = useState("dark");
 
   const changeTheme = () => {
@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <div data-theme={theme} className="all-sections">
+    <div data-theme={theme} className="all-sections app">
       <Nav changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <About />
